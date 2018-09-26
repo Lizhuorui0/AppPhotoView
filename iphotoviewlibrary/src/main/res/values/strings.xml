@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IPhotoviewLibrary</string>
+    <string name="str_del">删除</string>
+    <string name="str_close">关闭</string>
+</resources>
