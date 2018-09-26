@@ -12,12 +12,13 @@ or
 ##  setImage()       单张
   
 # 姿势1 
+```
 AppPhotoView.Companion.Builder()
                     .setImageList(images)
                     .setImagePosition(3)
                     .setImageLoader(GlideImageLoader())
                     .build().show(supportFragmentManager)  
-                    
+```                 
                     
 # 姿势2----带删除
 AppPhotoView.Companion.Builder()
