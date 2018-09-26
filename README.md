@@ -47,6 +47,8 @@ class GlideImageLoader : ImageLoader() {
             Glide.with(context).load(img).into(view)
         }
     }
-```    
+```  
+# 版本更新
+
  
  
