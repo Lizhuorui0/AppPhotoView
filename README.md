@@ -8,7 +8,7 @@
 
 ### 设置图片
 
-```
+```kotlin
   setImageList()   多张
 or
   setImage()       单张
@@ -25,7 +25,7 @@ AppPhotoView.Companion.Builder()
 ```                 
                     
 ### 姿势2----带删除
-```
+```kotlin
 AppPhotoView.Companion.Builder()
                     .openDel(true)
                     .setImageList(imageList)
@@ -41,7 +41,7 @@ AppPhotoView.Companion.Builder()
   
 ### ImageLoader--举个栗子-Glide
 
-```
+```kotlin
 class GlideImageLoader : ImageLoader() {
         override fun loadImage(context: Context, img: Any, view: ImageView) {
             Glide.with(context).load(img).into(view)
