@@ -1,6 +1,5 @@
 # AppPhotoView
 
-
 #### openDel() 是否使用删除功能
 #### setImagePosition() 设置下标
 #### setImageLoader(ImageLoader()) 设置图片加载方式
