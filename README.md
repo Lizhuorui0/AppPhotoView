@@ -1,12 +1,12 @@
 # AppPhotoView
 
 
-### openDel() 是否使用删除功能
-### setImagePosition() 设置下标
-### setImageLoader(ImageLoader()) 设置图片加载方式
-### setOnClickDeleteListener() 删除回调
+#### openDel() 是否使用删除功能
+#### setImagePosition() 设置下标
+#### setImageLoader(ImageLoader()) 设置图片加载方式
+#### setOnClickDeleteListener() 删除回调
 
-## 设置图片
+### 设置图片
 
 ```
   setImageList()   多张
@@ -14,9 +14,9 @@ or
   setImage()       单张
 ```
 
-## 姿势1 
+### 姿势1 
 
-```
+```kotlin
 AppPhotoView.Companion.Builder()
                     .setImageList(images)
                     .setImagePosition(3)
@@ -24,7 +24,7 @@ AppPhotoView.Companion.Builder()
                     .build().show(supportFragmentManager)  
 ```                 
                     
-## 姿势2----带删除
+### 姿势2----带删除
 ```
 AppPhotoView.Companion.Builder()
                     .openDel(true)
@@ -39,7 +39,7 @@ AppPhotoView.Companion.Builder()
                     .build().show(supportFragmentManager)
 ```                    
   
-## ImageLoader--举个栗子-Glide
+### ImageLoader--举个栗子-Glide
 
 ```
 class GlideImageLoader : ImageLoader() {
