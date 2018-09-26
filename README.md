@@ -1,16 +1,15 @@
 # AppPhotoView
 
 
+## openDel() 是否使用删除功能
+## setImagePosition() 设置下标
+## setImageLoader(ImageLoader()) 设置图片加载方式
+## setOnClickDeleteListener() 删除回调
 
-# openDel() 是否使用删除功能
-# setImagePosition() 设置下标
-# setImageLoader(ImageLoader()) 设置图片加载方式
-# setOnClickDeleteListener() 删除回调
-
-设置图片
-#  setImageList()   多张
+#设置图片
+##  setImageList()   多张
 or
-#  setImage()       单张
+##  setImage()       单张
   
 # 姿势1 
 AppPhotoView.Companion.Builder()
