@@ -40,7 +40,7 @@ AppPhotoView.Companion.Builder()
 ```                    
   
 ### ImageLoader--举个栗子-Glide
-#### 不参与图片的加载,可自行根据自己的好使用图片加载框架
+#### 不参与图片的加载,可自行根据自己的喜好使用图片加载框架
 
 ```kotlin
 class GlideImageLoader : ImageLoader() {
