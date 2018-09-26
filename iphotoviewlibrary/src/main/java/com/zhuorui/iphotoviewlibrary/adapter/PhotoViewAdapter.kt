@@ -40,8 +40,6 @@ class PhotoViewAdapter(context: Context, imageLoader: ImageLoader, onClickDismis
     override fun instantiateItem(container: ViewGroup, position: Int): Any {
         val img = imageUrls?.get(position)
         val photoView = PhotoView(context)
-        photoView.maxHeight = 100
-        photoView.maxWidth = 100
         container.addView(photoView)
         imageLoader?.loadImage(context!!, img!!, photoView)
         photoView.setOnClickListener {
